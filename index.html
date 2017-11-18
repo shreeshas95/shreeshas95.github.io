@@ -54,11 +54,11 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
-          <li class="nav-item">
+<!--           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
+          </li> -->
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+            <a class="nav-link js-scroll-trigger" href="#scholasicAchievements">Scholastic Achievements</a>
           </li>
         </ul>
       </div>
@@ -248,7 +248,7 @@
               <figcaption>Fig.1: Gain Boosted Folded Cascode</figcaption>
               </div>
 
-              <p>I am designing a gain boosted folded cascode amplifier for the first stage of pipeline adc. The OTA of pipeline adc needs to have a clean 20 dB/dec roll-off to get a good settling behaviour. A folded cascode has a gain corresponding to two stages, reasonable voltage swing limits and a single pole frequency response. <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=62165">Gain boosting technique</a> can increase the DC gain of the amlifier without any trade-offs with the bandwidth of the opamp. Also it can be shown that the bandwidth of gain boosting amplifier does not need to be as high as the bandwidth of the main amplifier, so this technique can be implemented without spending too much power. I was able to achieve 115 dB DC gain with a unity gain bandwidth of 280 MHz while driving a 9pF load capacitor.</p>
+              <p>I am designing a gain boosted folded cascode amplifier for the first stage of pipeline adc. The OTA of pipeline adc needs to have a clean 20 dB/dec roll-off to get a good settling behaviour. A folded cascode has a gain corresponding to two stages, reasonable voltage swing limits and a single pole frequency response. <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=62165">Gain boosting technique</a> can increase the DC gain of the amlifier without any trade-offs with the bandwidth of the amplifier. Also it can be shown that the bandwidth of gain boosting amplifier does not need to be as high as the bandwidth of the main amplifier, so this technique can be implemented without spending too much power. I was able to achieve 115 dB DC gain with a unity gain bandwidth of 280 MHz while driving a 9pF load capacitor.</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">September 2017 - Present</span>
@@ -305,22 +305,57 @@
             </div>
           </div>
 
+
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">0.75-1.5 GHz wideband Phase Locked Loop in UMC180nm Technology</h3>
               <div class="subheading mb-3">Guide: <a href="http://www.ee.iitm.ac.in/~ssaxena/index.html">Dr. Saurabh Saxena</a> </div>
-              <p>IITMSAT is a student satellite project in collaboration with Indian Space Research Organisation (ISRO) to build a satellite which is aimed at studying the features of plasma in the upper ionosphere and characterize its relation with earth-based phenomena like seismic activity. <a href="https://iitmsat.weebly.com/">This</a> is a webpage of IITMSAT, however it may be outdated. The satellite is undergoing Qualification Model (QM) tests.</p>
-              <ul>
-                <li>Involved in the development of on-board communication software. The project included designing a robust telecommand and telemetry manager, delegating various tasks to subsystem routines like payload data receiver, beacon, on-board data storage, encoder and decoder for communication with ground station</li>
-                <li>Implemented algorithms like convolution-encoding, cyclic-redundancy-check, bit-de-stuffing, direct-memory-access to receive serial data</li>
-                <li>Tracked and logged satellites like SWISSCUBE, SRM-SAT, CUBEBUG, etc. with the help of Perseus Radio.</li>
-                <li>Involved in ground station rotor and antenna setup</li>
-              </ul>
+              
+              <p>This was a course project to design an integer-N wideband 0.75-1.5 GHz PLL operating with a reference frequency of 46.875 MHz. The required specifications were, -40 dBc reference spur, -10 dB worst case PHI_OUT/Vsupply (Power Supply Noise Rejection), &lt;1% absolute jitter. Following schematics show some of the components.</p>
+
+              <div class="subheading mb-3">
+              <img src="img/PLLcp.svg" alt="PLL charge pump" height="100%" width="100%">
+              <figcaption>Fig.1: PLL charge pump design</figcaption>
+              </div>
+
+              <p>To maintain good matching between I_UP and I_DN throughout all possible values of Vctrl (of VCO), PMOS bias is generated based on the loop-filter capacitor voltage (Vc). This arrangement is shown in Fig.1.</p>
+
+              <div class="subheading mb-3">
+              <img src="img/LDO_replica.svg" alt="LDO with replica load" height="100%" width="100%">
+              <figcaption>Fig.2: A power supply regulator with replica load</figcaption>
+              </div>
+
+              <p>To avoid peaking of PHI_OUT/Vsupply, a regulator with replica load has been used. The bandwidth of regulator has to be higher than PLL bandwidth. Regulator will reject in-band supply noise, and the second pole of VCO and its current source reject out-of band supply noise. However since Kvco was too high in this project, this arrangement did not meet the required specification.<br/>In Fig.2 the inverter sizes and capacitors are adjusted such that the current consumed is about 4 times lesser than VCO. To keep the VCO current source in saturation, the current consumed in replica must be slightly lesser than 4 times.</p>
+
+
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">July 2010 - December 2011</span>
+              <span class="text-primary">October 2017 - November 2017</span>
             </div>
           </div>
+
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">5 Gbps Wireline Link in 45nm process</h3>
+              <div class="subheading mb-3">Guide: <a href="http://www.ee.iitm.ac.in/~ssaxena/index.html">Dr. Saurabh Saxena</a> </div>
+              
+              <p>As part of VLSI Broadband Communication Circuits course I have drafted a 5 Gbps serial link in 45nm process connected through a channel with 15dB channel loss at Nyquist frequency ().</p>
+
+              <div class="subheading mb-3">
+              <img src="img/fullLink.png" alt="wireline link" height="100%" width="100%">
+              <figcaption>Fig.1: Circuit diagram of wireline link</figcaption>
+              </div>
+
+              <p>The transmitter is made up of a 2:1 serialiser that takes in two data streams at 2.5 Gbps and outputs a single stream at 5 Gbps datarate. This data is passed through a voltage mode equalizer which drives the channel and offers 50 ohm output impedance. In this design most of the power is consumed in this equalizer.<br/>At the receiver, the data is sampled through a strong arm latch since the voltage swings are not high enough to directly operate a flip flop. The clock of the VCO is locked such that the rising edge of the clock occurs at the middle of the bit-period.</p>
+
+
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">November 2016 - December 2016</span>
+            </div>
+          </div>
+
 
         </div>
 
@@ -333,8 +368,14 @@
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
 
-          <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline list-icons">
+          <div class="subheading mb-3">Programming Languages</div>
+          <ul>
+            <li>C/C++</li>
+            <li>Python</li>
+            <li>Verilog</li>
+            <li>MATLAB</li>
+          </ul>
+<!--           <ul class="list-inline list-icons">
             <li class="list-inline-item">
               <i class="devicons devicons-html5"></i>
             </li>
@@ -368,10 +409,17 @@
             <li class="list-inline-item">
               <i class="devicons devicons-npm"></i>
             </li>
-          </ul>
+          </ul> -->
 
-          <div class="subheading mb-3">Workflow</div>
-          <ul class="fa-ul mb-0">
+          <div class="subheading mb-3">Software Packages &amp; Tools</div>
+          <ul>
+            <li>Cadence Virtuoso</li>
+            <li>Innovus/Genus</li>
+            <li>MATLAB</li>
+            <li>LTSpice</li>
+            <li>MBED Platform</li>
+          </ul>          
+<!--           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
               Mobile-First, Responsive Design</li>
@@ -384,33 +432,31 @@
             <li>
               <i class="fa-li fa fa-check"></i>
               Agile Development &amp; Scrum</li>
-          </ul>
+          </ul> -->
         </div>
       </section>
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+<!--       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+          <p>In my free time I play badminton or table tennis. I jog for about 5 km a few times a week.</p>
         </div>
       </section>
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+ -->
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="scholasicAchievements">
         <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
+          <h2 class="mb-5">Scholastic Achievements</h2>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer</li>
+              Ranked among the top ten in the 2018 batch of Dual-Degree Electrical Engineering at IIT Madras</li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification</li>
+              Secured an All India Rank of 1055 in Joint-Entrance-Exam (JEE) Advanced 2013</li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-            <li>
+              Scored 97.28\% in Class X, Karnataka Secondary Education Examination Board in 2011</li>
+<!--             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
               1<sup>st</sup>
               Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
@@ -426,7 +472,7 @@
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
               3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005</li>
+              Place - James Buchanan High School - Hackathon 2005</li> -->
           </ul>
         </div>
       </section>

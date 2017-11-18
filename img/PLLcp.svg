@@ -1,0 +1,379 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   id="PLLcp" width="100%" height="100%"  viewBox="-6 -6 3415 1232">
+<desc>
+XCircuit Version 3.9
+File "PLLcp.ps" Page 1
+</desc>
+<g stroke="black">
+<path d="M208,846 L208,810 176,810 176,754 208,754 208,718 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M164,810 L164,754 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M164,782 L144,782 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M180,818 C190,813 193,813 208,810 C193,807 190,807 180,802 C182,808 182,812 180,818 " fill="#000000" stroke="none" />
+<path d="M464,846 L464,810 496,810 496,754 464,754 464,718 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M508,810 L508,754 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M508,782 L528,782 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M492,818 C482,813 479,813 464,810 C479,807 482,807 492,802 C490,808 490,812 492,818 " fill="#000000" stroke="none" />
+<path d="M336,1038 L336,1002 304,1002 304,946 336,946 336,910 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M292,1002 L292,946 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M292,974 L272,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M308,1010 C318,1005 321,1005 336,1002 C321,999 318,999 308,994 C310,1000 310,1004 308,1010 " fill="#000000" stroke="none" />
+<path d="M208,846 L464,846 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M336,910 L336,846 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="336" cy="846" rx="6" ry="6" fill="#000000" stroke="none" />
+<path d="M336,1038 L336,1070 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M304,1070 L368,1070 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M318,1084 L354,1084 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M332,1098 L340,1098 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M912,558 L912,522 944,522 944,466 912,466 912,430 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M956,522 L956,466 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M956,494 L976,494 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M916,458 C926,463 929,463 944,466 C929,469 926,469 916,474 C918,468 918,464 916,458 " fill="#000000" stroke="none" />
+<path d="M976,494 L1104,494 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M912,398 L912,362 944,362 944,306 912,306 912,270 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M956,362 L956,306 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M956,334 L976,334 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M916,298 C926,303 929,303 944,306 C929,309 926,309 916,314 C918,308 918,304 916,298 " fill="#000000" stroke="none" />
+<path d="M912,270 L912,238 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M880,238 L944,238 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.9    0   -0  0.9 912 232)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="-35" y="0">Vdd</tspan>
+</text></g>
+<path d="M912,878 L912,842 944,842 944,786 912,786 912,750 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M956,842 L956,786 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M956,814 L976,814 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M940,850 C930,845 927,845 912,842 C927,839 930,839 940,834 C938,840 938,844 940,850 " fill="#000000" stroke="none" />
+<path d="M912,750 L912,558 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M912,1006 L912,970 944,970 944,914 912,914 912,878 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M956,970 L956,914 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M956,942 L976,942 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M940,978 C930,973 927,973 912,970 C927,967 930,967 940,962 C938,968 938,972 940,978 " fill="#000000" stroke="none" />
+<path d="M912,1006 L912,1038 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M880,1038 L944,1038 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M894,1052 L930,1052 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M908,1066 L916,1066 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1296,558 L1296,522 1264,522 1264,466 1296,466 1296,430 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1252,522 L1252,466 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1252,494 L1232,494 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1292,458 C1282,463 1279,463 1264,466 C1279,469 1282,469 1292,474 C1290,468 1290,464 1292,458 " fill="#000000" stroke="none" />
+<path d="M1232,494 L1104,494 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1296,398 L1296,362 1264,362 1264,306 1296,306 1296,270 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1252,362 L1252,306 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1252,334 L1232,334 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1292,298 C1282,303 1279,303 1264,306 C1279,309 1282,309 1292,314 C1290,308 1290,304 1292,298 " fill="#000000" stroke="none" />
+<path d="M1296,270 L1296,238 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1328,238 L1264,238 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.9   -0   -0  0.9 1296 232)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="-35" y="0">Vdd</tspan>
+</text></g>
+<path d="M1296,878 L1296,842 1264,842 1264,786 1296,786 1296,750 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1252,842 L1252,786 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1252,814 L1232,814 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1268,850 C1278,845 1281,845 1296,842 C1281,839 1278,839 1268,834 C1270,840 1270,844 1268,850 " fill="#000000" stroke="none" />
+<path d="M1296,750 L1296,558 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1296,1006 L1296,970 1264,970 1264,914 1296,914 1296,878 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1252,970 L1252,914 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1252,942 L1232,942 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1268,978 C1278,973 1281,973 1296,970 C1281,967 1278,967 1268,962 C1270,968 1270,972 1268,978 " fill="#000000" stroke="none" />
+<path d="M1296,1006 L1296,1038 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1328,1038 L1264,1038 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1314,1052 L1278,1052 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1300,1066 L1292,1066 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M208,974 L272,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M592,782 L528,782 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M80,782 L144,782 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix(   1    0   -0    1 1024 318)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">Vbias_P_1</tspan>
+</text></g>
+<g transform="matrix(   1    0   -0    1   0 974)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">Vbias_N_1</tspan>
+</text></g>
+<ellipse cx="912" cy="654" rx="6" ry="6" fill="#000000" stroke="none" />
+<ellipse cx="1296" cy="654" rx="6" ry="6" fill="#000000" stroke="none" />
+<g transform="matrix(   1    0   -0    1  80 766)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">Vc2</tspan>
+</text></g>
+<g transform="matrix(   1    0   -0    1 544 766)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">Vc</tspan>
+</text></g>
+<g transform="matrix(   1 -1.5586e-11 1.5586e-11    1 1328 654)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">V2</tspan>
+</text></g>
+<path d="M1968,1166 L1968,1130 1936,1130 1936,1074 1968,1074 1968,1038 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1924,1130 L1924,1074 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1924,1102 L1904,1102 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1940,1138 C1950,1133 1953,1133 1968,1130 C1953,1127 1950,1127 1940,1122 C1942,1128 1942,1132 1940,1138 " fill="#000000" stroke="none" />
+<path d="M1968,1166 L1968,1198 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2000,1198 L1936,1198 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1986,1212 L1950,1212 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1972,1226 L1964,1226 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1968,1038 L1968,1002 1936,1002 1936,946 1968,946 1968,910 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1924,1002 L1924,946 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1924,974 L1904,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1940,1010 C1950,1005 1953,1005 1968,1002 C1953,999 1950,999 1940,994 C1942,1000 1942,1004 1940,1010 " fill="#000000" stroke="none" />
+<path d="M1520,1038 L1520,1002 1552,1002 1552,946 1520,946 1520,910 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1564,1002 L1564,946 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1564,974 L1584,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1548,1010 C1538,1005 1535,1005 1520,1002 C1535,999 1538,999 1548,994 C1546,1000 1546,1004 1548,1010 " fill="#000000" stroke="none" />
+<path d="M1968,910 L1968,878 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="1968" cy="878" rx="6" ry="6" fill="#000000" stroke="none" />
+<path d="M1776,974 L1904,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1520,1166 L1520,1198 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1552,1198 L1488,1198 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1538,1212 L1502,1212 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1524,1226 L1516,1226 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1520,1038 L1520,1166 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1968,718 L1968,686 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1936,686 L2000,686 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.9    0   -0  0.9 1968 680)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="-35" y="0">Vdd</tspan>
+</text></g>
+<path d="M1520,718 L1520,686 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1488,686 L1552,686 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.9    0   -0  0.9 1520 680)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="-35" y="0">Vdd</tspan>
+</text></g>
+<path d="M1520,910 L1520,846 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1904,1102 L1808,1102 1808,878 1968,878 1968,846 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix(   1    0   -0    1 1760 862)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">Vbias_N_1</tspan>
+</text></g>
+<path d="M1712,974 L1584,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix(   1    0   -0    1 1568 1022)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">Vbias_N_C</tspan>
+</text></g>
+<path d="M1696,974 L1776,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="1520" cy="782" rx="32" ry="32" fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1520,766 L1520,798 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1512,786 C1517,796 1517,799 1520,814 C1523,799 1523,796 1528,786 C1522,788 1518,788 1512,786 " fill="#000000" stroke="none" />
+<path d="M1520,718 L1520,750 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1520,846 L1520,814 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="1968" cy="782" rx="32" ry="32" fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1968,766 L1968,798 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1960,786 C1965,796 1965,799 1968,814 C1971,799 1971,796 1976,786 C1970,788 1966,788 1960,786 " fill="#000000" stroke="none" />
+<path d="M1968,718 L1968,750 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1968,846 L1968,814 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="1520" cy="446" rx="32" ry="32" fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1520,430 L1520,462 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1512,450 C1517,460 1517,463 1520,478 C1523,463 1523,460 1528,450 C1522,452 1518,452 1512,450 " fill="#000000" stroke="none" />
+<path d="M1520,382 L1520,414 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1520,510 L1520,478 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1520,510 L1520,542 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1488,542 L1552,542 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1502,556 L1538,556 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1516,570 L1524,570 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="1968" cy="446" rx="32" ry="32" fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1968,430 L1968,462 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1960,450 C1965,460 1965,463 1968,478 C1971,463 1971,460 1976,450 C1970,452 1966,452 1960,450 " fill="#000000" stroke="none" />
+<path d="M1968,382 L1968,414 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1968,510 L1968,478 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1968,510 L1968,542 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1936,542 L2000,542 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1950,556 L1986,556 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1964,570 L1972,570 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1968,318 L1968,282 1936,282 1936,226 1968,226 1968,190 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1924,282 L1924,226 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1924,254 L1904,254 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1964,218 C1954,223 1951,223 1936,226 C1951,229 1954,229 1964,234 C1962,228 1962,224 1964,218 " fill="#000000" stroke="none" />
+<path d="M1968,190 L1968,154 1936,154 1936,98 1968,98 1968,62 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1924,154 L1924,98 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1924,126 L1904,126 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1964,90 C1954,95 1951,95 1936,98 C1951,101 1954,101 1964,106 C1962,100 1962,96 1964,90 " fill="#000000" stroke="none" />
+<path d="M1968,62 L1968,30 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1936,30 L2000,30 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.9    0   -0  0.9 1968  24)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="-35" y="0">Vdd</tspan>
+</text></g>
+<path d="M1904,126 L1808,126 1808,350 1968,350 1968,382 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1968,318 L1968,350 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="1968" cy="350" rx="6" ry="6" fill="#000000" stroke="none" />
+<path d="M1520,318 L1520,282 1552,282 1552,226 1520,226 1520,190 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1564,282 L1564,226 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1564,254 L1584,254 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1524,218 C1534,223 1537,223 1552,226 C1537,229 1534,229 1524,234 C1526,228 1526,224 1524,218 " fill="#000000" stroke="none" />
+<path d="M1520,318 L1520,382 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1520,62 L1520,30 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1488,30 L1552,30 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.9    0   -0  0.9 1520  24)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="-35" y="0">Vdd</tspan>
+</text></g>
+<path d="M1520,62 L1520,190 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M1584,254 C1600,254 1888,254 1904,254 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix(   1    0   -0    1 1760 382)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">Vbias_P_1</tspan>
+</text></g>
+<g transform="matrix(   1    0   -0    1 1584 238)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">Vbias_P_C</tspan>
+</text></g>
+<path d="M912,654 L1008,654 1008,942 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="1008" cy="942" rx="6" ry="6" fill="#000000" stroke="none" />
+<path d="M976,334 L1232,334 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix(   1    0   -0    1 1024 478)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">Vbias_P_C</tspan>
+</text></g>
+<path d="M1296,430 L464,430 464,718 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="1296" cy="430" rx="6" ry="6" fill="#000000" stroke="none" />
+<path d="M1296,430 L1296,398 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M912,430 L912,398 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M912,398 L208,398 208,718 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="912" cy="398" rx="6" ry="6" fill="#000000" stroke="none" />
+<path d="M976,942 L1232,942 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M976,814 L1232,814 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix(   1    0   -0    1 1040 798)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">Vbias_N_C</tspan>
+</text></g>
+<path d="M1520,334 L1616,334 1616,254 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="1616" cy="254" rx="6" ry="6" fill="#000000" stroke="none" />
+<ellipse cx="1520" cy="334" rx="6" ry="6" fill="#000000" stroke="none" />
+<path d="M1616,974 L1616,878 1520,878 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="1520" cy="878" rx="6" ry="6" fill="#000000" stroke="none" />
+<ellipse cx="1616" cy="974" rx="6" ry="6" fill="#000000" stroke="none" />
+<path d="M2288,1038 L2288,1002 2320,1002 2320,946 2288,946 2288,910 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2332,1002 L2332,946 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2332,974 L2352,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2316,1010 C2306,1005 2303,1005 2288,1002 C2303,999 2306,999 2316,994 C2314,1000 2314,1004 2316,1010 " fill="#000000" stroke="none" />
+<path d="M2288,1166 L2288,1198 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2320,1198 L2256,1198 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2306,1212 L2270,1212 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2292,1226 L2284,1226 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2288,718 L2288,686 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2256,686 L2320,686 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.9    0   -0  0.9 2288 680)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="-35" y="0">Vdd</tspan>
+</text></g>
+<path d="M2288,910 L2288,846 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="2288" cy="782" rx="32" ry="32" fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2288,766 L2288,798 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2280,786 C2285,796 2285,799 2288,814 C2291,799 2291,796 2296,786 C2290,788 2286,788 2280,786 " fill="#000000" stroke="none" />
+<path d="M2288,718 L2288,750 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2288,846 L2288,814 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2384,974 L2384,878 2288,878 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="2288" cy="878" rx="6" ry="6" fill="#000000" stroke="none" />
+<path d="M2352,974 L2384,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix(   1    0   -0    1 2384 862)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">V1<tspan y="0"></tspan></tspan>
+</text></g>
+<path d="M2288,1166 L2288,1130 2320,1130 2320,1074 2288,1074 2288,1038 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2332,1130 L2332,1074 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2332,1102 L2352,1102 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2316,1138 C2306,1133 2303,1133 2288,1130 C2303,1127 2306,1127 2316,1122 C2314,1128 2314,1132 2316,1138 " fill="#000000" stroke="none" />
+<path d="M2384,1102 L2352,1102 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2384,1102 L2384,1070 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2352,1070 L2416,1070 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.9    0   -0  0.9 2384 1064)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="-35" y="0">Vdd</tspan>
+</text></g>
+<path d="M2576,846 L2576,810 2608,810 2608,754 2576,754 2576,718 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2620,810 L2620,754 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2620,782 L2640,782 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2580,746 C2590,751 2593,751 2608,754 C2593,757 2590,757 2580,762 C2582,756 2582,752 2580,746 " fill="#000000" stroke="none" />
+<path d="M2576,1038 L2576,1002 2608,1002 2608,946 2576,946 2576,910 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2620,1002 L2620,946 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2620,974 L2640,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2604,1010 C2594,1005 2591,1005 2576,1002 C2591,999 2594,999 2604,994 C2602,1000 2602,1004 2604,1010 " fill="#000000" stroke="none" />
+<path d="M2576,1166 L2576,1198 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2608,1198 L2544,1198 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2594,1212 L2558,1212 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2580,1226 L2572,1226 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2640,974 L2672,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2576,1166 L2576,1130 2608,1130 2608,1074 2576,1074 2576,1038 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2620,1130 L2620,1074 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2620,1102 L2640,1102 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2604,1138 C2594,1133 2591,1133 2576,1130 C2591,1127 2594,1127 2604,1122 C2602,1128 2602,1132 2604,1138 " fill="#000000" stroke="none" />
+<path d="M2672,1102 L2640,1102 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2672,1102 L2672,1070 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2640,1070 L2704,1070 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.9    0   -0  0.9 2672 1064)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="-35" y="0">Vdd</tspan>
+</text></g>
+<g transform="matrix(   1    0   -0    1 2624 958)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">V1</tspan>
+</text></g>
+<path d="M2576,910 L2576,846 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2576,718 L2576,682 2608,682 2608,626 2576,626 2576,590 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2620,682 L2620,626 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2620,654 L2640,654 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2580,618 C2590,623 2593,623 2608,626 C2593,629 2590,629 2580,634 C2582,628 2582,624 2580,618 " fill="#000000" stroke="none" />
+<path d="M2576,590 L2576,558 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2544,558 L2608,558 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.9    0   -0  0.9 2576 552)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="-35" y="0">Vdd</tspan>
+</text></g>
+<path d="M2672,654 L2640,654 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2672,654 L2672,686 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2704,686 L2640,686 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2690,700 L2654,700 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2676,714 L2668,714 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2672,782 L2640,782 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix(   1    0   -0    1 2624 766)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">V2</tspan>
+</text></g>
+<path d="M2672,878 L2576,878 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="2576" cy="878" rx="6" ry="6" fill="#000000" stroke="none" />
+<g transform="matrix(   1    0   -0    1 2672 862)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">Vc2</tspan>
+</text></g>
+<path d="M2864,878 L3024,878 2944,718 z" fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix(-3.8965e-12   -1   -1 3.8965e-12 2986 859)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="-11" y="6">&#8722;</tspan>
+</text></g>
+<g transform="matrix(-3.8965e-12   -1   -1 3.8965e-12 2894 859)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="-11" y="11">+</tspan>
+</text></g>
+<path d="M2672,878 L2800,878 2800,910 2896,910 2896,878 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2992,878 L2992,958 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M2992,958 L2992,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix(   1    0   -0    1 3008 974)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">Vc<tspan y="0"></tspan></tspan>
+</text></g>
+<path d="M2672,782 L2800,782 2800,654 2944,654 2944,718 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3152,846 L3152,810 3184,810 3184,754 3152,754 3152,718 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3196,810 L3196,754 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3196,782 L3216,782 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3156,746 C3166,751 3169,751 3184,754 C3169,757 3166,757 3156,762 C3158,756 3158,752 3156,746 " fill="#000000" stroke="none" />
+<path d="M3152,1038 L3152,1002 3184,1002 3184,946 3152,946 3152,910 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3196,1002 L3196,946 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3196,974 L3216,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3180,1010 C3170,1005 3167,1005 3152,1002 C3167,999 3170,999 3180,994 C3178,1000 3178,1004 3180,1010 " fill="#000000" stroke="none" />
+<path d="M3152,1166 L3152,1198 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3184,1198 L3120,1198 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3170,1212 L3134,1212 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3156,1226 L3148,1226 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3216,974 L3248,974 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3152,1166 L3152,1130 3184,1130 3184,1074 3152,1074 3152,1038 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3196,1130 L3196,1074 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3196,1102 L3216,1102 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3180,1138 C3170,1133 3167,1133 3152,1130 C3167,1127 3170,1127 3180,1122 C3178,1128 3178,1132 3180,1138 " fill="#000000" stroke="none" />
+<path d="M3248,1102 L3216,1102 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix(   1    0   -0    1 3200 958)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">V1</tspan>
+</text></g>
+<path d="M3152,910 L3152,846 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3152,718 L3152,682 3184,682 3184,626 3152,626 3152,590 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3196,682 L3196,626 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3196,654 L3216,654 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3156,618 C3166,623 3169,623 3184,626 C3169,629 3166,629 3156,634 C3158,628 3158,624 3156,618 " fill="#000000" stroke="none" />
+<path d="M3152,590 L3152,558 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3120,558 L3184,558 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix( 0.9    0   -0  0.9 3152 552)" fill="#000000" >
+<text stroke="none" font-family="Times" font-size="40" ><tspan x="-35" y="0">Vdd</tspan>
+</text></g>
+<path d="M3248,654 L3216,654 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<path d="M3248,782 L3216,782 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<g transform="matrix(   1    0   -0    1 3200 766)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">V2</tspan>
+</text></g>
+<path d="M3248,878 L3152,878 " fill="none" stroke-width="2" stroke-linejoin="bevel" stroke-linecap="round" stroke="#000000" />
+<ellipse cx="3152" cy="878" rx="6" ry="6" fill="#000000" stroke="none" />
+<g transform="matrix(   1    0   -0    1 3248 1086)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">DN</tspan>
+</text></g>
+<g transform="matrix(   1    0   -0    1 3248 638)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">UP_B</tspan>
+</text></g>
+<g transform="matrix(   1    0   -0    1 3248 862)" fill="#000000" >
+<text stroke="none" font-family="Helvetica" font-size="40" ><tspan x="0" y="0">Vout_CP</tspan>
+</text></g>
+</g>
+</svg>
