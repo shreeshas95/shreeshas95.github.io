@@ -29,7 +29,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-block d-lg-none">Shreesha S</span>
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
         </span>
@@ -75,7 +75,7 @@
             <a href="mailto:ee13b104@ee.iitm.ac.in">ee13b104@ee.iitm.ac.in</a> · 
             <a href="mailto:shreesha.s.mailbox@gmail.com">shreesha.s.mailbox@gmail.com</a>
           </div>
-          <p class="mb-5">I am currently studying in 5th year Dual Degree at Department of Electrical Engineering, Indian Institute of Technology Madras. As a part of my graduate thesis, I am working on a Pipeline Analog to Digital Converter (ADC) guided by Dr. Nagendra Krishnapura. I have completed my pre-university (11th and 12th) education in Dharwad, Karnataka. <b>My research interests are Analog &amp; Mixed Signal and Radio Frequency Integrated Circuits</b>. This website gives an introduction of my research experience, and thank you for your time!</p>
+          <p class="mb-5">I am currently studying in 5th year Dual Degree at Department of Electrical Engineering, Indian Institute of Technology Madras. As a part of my graduate thesis, I am working on a Pipelined Analog to Digital Converter (ADC) guided by Dr. Nagendra Krishnapura. <!-- I have completed my pre-university (11th and 12th) education in Dharwad, Karnataka -->. <br/><b>My research interests are Analog &amp; Mixed Signal and Radio Frequency Integrated Circuits</b>. This website gives an introduction of my research experience, and thank you for your time!</p>
 <!--           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="#">
@@ -193,44 +193,29 @@
               <figcaption>Fig.1: 10 bit capacitor bank for monotonic switching procedure</figcaption>
               </div>
               
-              <p>In order to reduce the total capacitance, two capacitor banks are coupled as shown in Fig.1. However this technique only generates approximate weights, and hence it may increase quantization noise. <br /></p>
+              <p>In order to reduce the total capacitance, two capacitor banks are coupled as shown in Figure. However this technique only generates approximate weights, and hence it may increase quantization noise. <br/> While acquiring the signal, the top-plate of LSB bank can be connected to any voltage without affecting the resolved bits. Thus, this technique can be used to reduce input capacitance of SAR ADC, and thus has the potential to reduce the power consumption of the block driving the SAR ADC. <br /> One of the cons of top plate sampling is the gain error caused by the parasitic capacitance at the top plate of MSB bank. To counter this, a layout technique is used, where signal is attenuated by the same factor as the capacitor weights. This technique however does not eliminate the gain error due to the gate capacitance of comparator and drain capacitor of sampling switches. </p>
 
               <div class="subheading mb-3">
-              <img src="img/procedure_mono.svg" alt="Monotonic Switching Procedure" height="50%" width="50%">
-              <figcaption>Fig.2: Monotonic capacitor switching procedure</figcaption>
+              <img src="img/digi_conv.svg" alt="conventional Digital Logic" height="100%" width="100%">
+              <figcaption>Fig.2: Convenional digital logic</figcaption>
               </div>
               
-              <p>While acquiring the signal, the top-plate of LSB bank can be connected to any voltage without affecting the resolved bits (in Fig.1 the top plate of LSB bank is connected to Vref). Since in top plate sampling the voltage changes are of the form Vref/2, Vref/4, Vref/8, etc. (as shown in Fig.2), the LSB top plates need not be connected to signal voltage in acquisition phase (unlike bottom plate sampling). This technique can be used to reduce input capacitance of SAR ADC, and thus has the potential to reduce the power consumption of the block driving the SAR ADC. <br /> The parasitic capacitance at the top plate of LSB bank is absorbed into c0. This can be done because the bottom plate of c0 is not changed in monotonic switching procedure. </p>
-
-              <div class="subheading mb-3">
-              <img src="img/capBank_10b_cplsbmsb.svg" alt="Arrangement to reduce gain error" height="100%" width="100%">
-              <figcaption>Fig.3: Arrangement to reduce gain error</figcaption>
-              </div>
-
-              <p>One of the cons of top plate sampling is the gain error caused by the parasitic capacitance at the top plate of MSB bank. To counter this, a layout technique is used. Since such a parasitic capacitance does not cause any problem in bottom plate sampling, a method is implemented to emulate bottom plate sampling. As shown in Fig.3 'msbTop' is shielded by another metal layer. This captures all the parasitic capacitance from 'msbTop' node. Now this shield node (called 'msbTopShield') is charged to signal voltage during acquisition phase and is connected to ground during resolution phase. This attenuates the signal by the same factor as the capacitor weights (similar to bottom plate sampling). <br />Since the sampling switch and the capacitor bank act as a low pass filter, instead of connecting 'msbTopShield' directly to signal, 'msbTopShield' is connected to the capacitor bank top plate itself. <br/> This technique however does not eliminate the gain error due to the gate capacitance of comparator and drain capacitor of sampling switches. </p>
-              
-<!--               <p><br/>A bootstrap switch is designed to generate a gate voltage of (signal+Vdd) in acquisition phase and (-Vdd/2) in resolution phase. This is done to achieve signal independent on-resistance of switch and to prevent leaking in resolution phase (respectively). </p> -->
-
-              <div class="subheading mb-3">
-              <img src="img/digi_conv.svg" alt="Conventional Digital Logic" height="100%" width="100%">
-              <figcaption>Fig.4: Conventional digital logic</figcaption>
-              </div>
-              
-              <p>It can be shown that in the conventional structure (as shown in Fig.4) the digital logic delay is dependent on two flip flops. This can severly impact the settling-time requirements of switches conected to bottom plates of capacitors.</p>
-
-              <div class="subheading mb-3">
-              <img src="img/digi_new.svg" alt="Novel Digital Logic" height="100%" width="100%">
-              <figcaption>Fig.5: Novel digital logic</figcaption>
-              </div>
-
-              <p>A new digital logic is designed to reduce logic delay. In this technique the delay is dependent on only one flip flop instead of two. In the conventional structure, extra clocks required to sample comparator output are generated as shown in Fig.4. This extra clock generation itself consumes one flip flop delay. In the new technique 'clock enable's are generated at the complementary edges of input clock. Thus when input clock edge arrives the 'clock enable's are already generated giving a much faster response.</p>
+              <p>It can be shown that in the conventional structure (as shown in Fig.2) the digital logic delay is dependent on two flip flops. This can severly impact the settling-time requirements of switches conected to bottom plates of capacitors. <br/>A new digital logic is designed to reduce logic delay, wherein the delay is dependent on only one flip flop instead of two. </p>
 
               <div class="subheading mb-3">
               <img src="img/fullLayout.png" alt="ADC Layout" height="20%" width="20%">
-              <figcaption>Fig.6: Layout of ADC</figcaption>
+              <figcaption>Fig.3: Layout of ADC</figcaption>
               </div>
 
-              <p> This ADC design is currently in the process of fabrication.</p>
+              <p> Fig.3 shows the layout of the fully differential ADC. This ADC design is currently in the process of fabrication.<br/>Specifications of the ADC:</p>
+              <ul>
+                <li>Process: TSMC65nm</li>
+                <li>Supply Voltage: 1.2 Volt</li>
+                <li>Effective Number of Bits(ENOB): 9.5</li>
+                <li>Power Consumption: 411uW</li>
+                <li>Figure Of Merit (FOM) (lower is better): 13.65 fJ/conversion</li>
+                <li>Area consumed: 300uM * 150uM</li>
+              </ul>
               
             </div>
             <div class="resume-date text-md-right">
@@ -240,7 +225,7 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Front end 4-bit MSB stage for a 16-bit 5-MSPS Pipeline ADC in UMC180nm process</h3>
+              <h3 class="mb-0">Front end 4-bit MSB stage for a 16-bit 5-MSPS Pipelined ADC in UMC180nm process</h3>
               <div class="subheading mb-3">Guide: <a href="http://www.ee.iitm.ac.in/~nagendra/">Dr. Nagendra Krishnapura</a></div>
 
               <div class="subheading mb-3">
@@ -248,7 +233,7 @@
               <figcaption>Fig.1: Gain Boosted Folded Cascode</figcaption>
               </div>
 
-              <p>I am designing a gain boosted folded cascode amplifier for the first stage of pipeline adc. The OTA of pipeline adc needs to have a clean 20 dB/dec roll-off to get a good settling behaviour. A folded cascode has a gain corresponding to two stages, reasonable voltage swing limits and a single pole frequency response. <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=62165">Gain boosting technique</a> can increase the DC gain of the amlifier without any trade-offs with the bandwidth of the amplifier. Also it can be shown that the bandwidth of gain boosting amplifier does not need to be as high as the bandwidth of the main amplifier, so this technique can be implemented without spending too much power. I was able to achieve 115 dB DC gain with a unity gain bandwidth of 280 MHz while driving a 9pF load capacitor.</p>
+              <p>I am designing a gain boosted folded cascode amplifier for the first stage of pipelined adc. The OTA of pipelined adc needs to have a clean 20 dB/dec roll-off to get a good settling behaviour. A folded cascode has a gain corresponding to two stages, reasonable voltage swing limits and a single pole frequency response. <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=62165">Gain boosting technique</a> can increase the DC gain of the amlifier without any trade-offs with the bandwidth of the amplifier. Also it can be shown that the bandwidth of gain boosting amplifier does not need to be as high as the bandwidth of the main amplifier, so this technique can be implemented without spending too much power. I was able to achieve 115 dB DC gain with a unity gain bandwidth of 280 MHz while driving a 9pF load capacitor. Furtermore, new techniques are being developed to reduce the power consumption of OTA, and it is expected to reduce power consumption by about 30%.</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">September 2017 - Present</span>
@@ -259,21 +244,7 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Internship at Texas Instruments, Bengaluru</h3>
               <div class="subheading mb-3">Mentor: Eeshan Miglani, Analog Design Engineer, Texas Instruments</div>
-              <p>I have drafted a resistive DAC element for SD ADC in 28nm process, operating at a clock frequency of 1.5 GHz and supply voltage of 1 volt. One of the problems I faced was reducing rise-fall time mismatch. In differential systems inherently there is no rise-fall time mismatch, however because of random mismatch between PMOS transistors (and NMOS) of two arms of the differential circuit, there can be a finite rise-fall time mismatch. This becomes challenging when optimizing for power, since sizes of transistors needs to be reduced. </p>
-
-              <div class="subheading mb-3">
-              <img src="img/TexasTRgateDriver.svg" alt="Transmission gate driver" height="50%" width="50%">
-              <figcaption>Fig.1: Transmission gate driver</figcaption>
-              </div>
-
-              <p> The first circuit attempts to match rise and fall time of a single arm. Even though PMOS primarily impacts rise-time (and NMOS fall-time) the transmission gate allows both transistors to control both rise &amp; fall times. </p>
-
-              <div class="subheading mb-3">
-              <img src="img/TexasCTDriver.svg" alt="common transistor driver" height="50%" width="50%">
-              <figcaption>Fig.2: Rise &amp; fall time controlled by common transistor</figcaption>
-              </div>
-
-              <p> The second circuit attempts to match rise-times of differential arms by making the rise-times dependent on a single common transistor (and similarly for the fall-times as well). This seems to be a more general solution. The mismatch of resistors was lesser as compared to mismatch of transistors. </p>
+              <p>I have drafted a resistive DAC element for SD ADC in 28nm process, operating at a clock frequency of 1.5 GHz and supply voltage of 1 volt. The DAC was made up of resistors being driven by inverters. One of the problems I faced was reducing rise-fall time mismatch. In differential systems inherently there is no rise-fall time mismatch, however because of random mismatch between PMOS transistors (and NMOS) of two arms of the differential circuit, there can be a finite rise-fall time mismatch. This becomes challenging when optimizing for power, since sizes of transistors needs to be reduced. Two designs were proposed: <br/>The first circuit attempts to match rise and fall time of a single arm. Even though PMOS primarily impacts rise-time (and NMOS fall-time) a transmission gate allows both transistors to control both rise &amp; fall times. <br/>The second circuit attempts to match rise-times of differential arms by making the rise-times dependent on a single common transistor (and similarly for the fall-times as well). This seems to be a more general solution.</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">May 2016 - July 2016</span>
@@ -325,7 +296,7 @@
               <figcaption>Fig.2: A power supply regulator with replica load</figcaption>
               </div>
 
-              <p>To avoid peaking of PHI_OUT/Vsupply, a regulator with replica load has been used. The bandwidth of regulator has to be higher than PLL bandwidth. Regulator will reject in-band supply noise, and the second pole of VCO and its current source reject out-of band supply noise. However since Kvco was too high in this project, this arrangement did not meet the required specification.<br/>In Fig.2 the inverter sizes and capacitors are adjusted such that the current consumed is about 4 times lesser than VCO. To keep the VCO current source in saturation, the current consumed in replica must be slightly lesser than 4 times.</p>
+              <p>To avoid peaking of PHI_OUT/Vsupply, a regulator with replica load has been used. The bandwidth of regulator has to be higher than PLL bandwidth. Regulator will reject in-band supply noise, and the second pole of VCO and its current source reject out-of band supply noise. <br/>In Fig.2 the inverter sizes and capacitors are adjusted such that the current consumed is about 4 times lesser than VCO. To keep the VCO current source in saturation, the current consumed in replica must be slightly lesser than 4 times.</p>
 
 
             </div>
@@ -340,7 +311,7 @@
               <h3 class="mb-0">5 Gbps Wireline Link in 45nm process</h3>
               <div class="subheading mb-3">Guide: <a href="http://www.ee.iitm.ac.in/~ssaxena/index.html">Dr. Saurabh Saxena</a> </div>
               
-              <p>As part of VLSI Broadband Communication Circuits course I have drafted a 5 Gbps serial link in 45nm process connected through a channel with 15dB channel loss at Nyquist frequency ().</p>
+              <p>As part of VLSI Broadband Communication Circuits course I have drafted a 5 Gbps serial link in 45nm process connected through a channel with 15dB channel loss at 2.5 GHz.</p>
 
               <div class="subheading mb-3">
               <img src="img/fullLink.png" alt="wireline link" height="100%" width="100%">
@@ -356,6 +327,23 @@
             </div>
           </div>
 
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">LiFi Project at <a href="http://cfi.iitm.ac.in/main/">CFI</a></h3>
+              <div class="subheading mb-3">Under Electronics Club</div>
+
+              <div class="subheading mb-3">
+              <img src="img/lifi.png" alt="Lifi receiver" height="100%" width="100%">
+              <figcaption>Fig.1: Receiver Circuit Diagram</figcaption>
+              </div>
+
+              <p>This was a project to build a working LiFi model under Electronics Club, CFI, IIT Madras. I was able to achieve 200 kbps at close range while using LF347 as a trans-impedance amplifier. This was presented at CFI Open House in November 2016.</p>
+
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">August 2016 - December 2016</span>
+            </div>
+          </div>
 
         </div>
 
@@ -414,7 +402,7 @@
           <div class="subheading mb-3">Software Packages &amp; Tools</div>
           <ul>
             <li>Cadence Virtuoso</li>
-            <li>Innovus/Genus</li>
+            <li>Innovus/Genus (Digital Synthesis Tools)</li>
             <li>MATLAB</li>
             <li>LTSpice</li>
             <li>MBED Platform</li>
@@ -455,7 +443,10 @@
               Secured an All India Rank of 1055 in Joint-Entrance-Exam (JEE) Advanced 2013</li>
             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
-              Scored 97.28\% in Class X, Karnataka Secondary Education Examination Board in 2011</li>
+              Scored 93% in Class XII, Deaprtment of Pre-University Education, Karnataka in 2013</li>
+            <li>
+              <i class="fa-li fa fa-trophy text-warning"></i>
+              Scored 97% in Class X, Karnataka Secondary Education Examination Board in 2011</li>
 <!--             <li>
               <i class="fa-li fa fa-trophy text-warning"></i>
               1<sup>st</sup>
