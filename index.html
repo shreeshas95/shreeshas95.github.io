@@ -186,21 +186,21 @@
               <h3 class="mb-0">A 10-bit 40-MSPS SAR ADC in TSMC65nm Process</h3>
               <div class="subheading mb-3">Guide: <a href="http://www.ee.iitm.ac.in/~nagendra/">Dr. Nagendra Krishnapura</a></div>
 
-              <p>This Successive Aproximation Register (SAR) ADC is based on <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5437496">Monotonic Capacitor Switching Procedure</a>. In the original paper a binary weighted 10-bit capacitor bank is used to acquire the signal.</p>
+              <p>This Successive Approximation Register (SAR) ADC is based on <a href="http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=5437496">Monotonic Capacitor Switching Procedure</a>. In the original paper a binary weighted 10-bit capacitor bank is used to acquire the signal.</p>
               
               <div class="subheading mb-3">
               <img src="img/capBank_10b.svg" alt="10-bit Capacitor Bank" height="100%" width="100%">
               <figcaption>Fig.1: 10 bit capacitor bank for monotonic switching procedure</figcaption>
               </div>
               
-              <p>In order to reduce the total capacitance, two capacitor banks are coupled as shown in Figure. However this technique only generates approximate weights, and hence it may increase quantization noise. <br/> While acquiring the signal, the top-plate of LSB bank can be connected to any voltage without affecting the resolved bits. Thus, this technique can be used to reduce input capacitance of SAR ADC, and thus has the potential to reduce the power consumption of the block driving the SAR ADC. <br /> One of the cons of top plate sampling is the gain error caused by the parasitic capacitance at the top plate of MSB bank. To counter this, a layout technique is used, where signal is attenuated by the same factor as the capacitor weights. This technique however does not eliminate the gain error due to the gate capacitance of comparator and drain capacitor of sampling switches. </p>
+              <p>In order to reduce the total capacitance, two capacitor banks are coupled as shown in Figure. However, this technique only generates approximate weights, and hence it may increase quantization noise. <br/> While acquiring the signal, the top-plate of LSB bank can be connected to any voltage without affecting the resolved bits. Thus, this technique can be used to reduce input capacitance of SAR ADC, and thus has the potential to reduce the power consumption of the block driving the SAR ADC. <br /> One of the cons of top plate sampling is the gain error caused by the parasitic capacitance at the top plate of MSB bank. To counter this, a layout technique is used, where signal is attenuated by the same factor as the capacitor weights. This technique however does not eliminate the gain error due to the gate capacitance of comparator and drain capacitor of sampling switches. </p>
 
               <div class="subheading mb-3">
               <img src="img/digi_conv.svg" alt="conventional Digital Logic" height="100%" width="100%">
-              <figcaption>Fig.2: Convenional digital logic</figcaption>
+              <figcaption>Fig.2: Conventional digital logic</figcaption>
               </div>
               
-              <p>It can be shown that in the conventional structure (as shown in Fig.2) the digital logic delay is dependent on two flip flops. This can severly impact the settling-time requirements of switches conected to bottom plates of capacitors. <br/>A new digital logic is designed to reduce logic delay, wherein the delay is dependent on only one flip flop instead of two. </p>
+              <p>It can be shown that in the conventional structure (as shown in Fig.2) the digital logic delay is dependent on two flip flops. This can severely impact the settling-time requirements of switches connected to bottom plates of capacitors. <br/>A new digital logic is designed to reduce logic delay, wherein the delay is dependent on only one flip flop instead of two. </p>
 
               <div class="subheading mb-3">
               <img src="img/fullLayout.png" alt="ADC Layout" height="20%" width="20%">
